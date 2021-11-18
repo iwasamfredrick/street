@@ -1,0 +1,96 @@
+
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+}
+nav{
+  flex: 1;
+  text-align: right;
+  color: white;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 10px;
+}
+.top-header{
+  background: brown;
+}
+.header{
+  background:yellow;
+  text-align: center;
+}
+.top-contaner{
+  padding-top: 50px;
+}
+.contaner{
+  text-align: center;
+}
+hr{
+  border: dotted 6px;
+  border-bottom:none;
+  width: 700px;
+  margin: 30px auto;
+  color: green;
+
+}
+.my{
+  margin-top: 30px;
+}
+.first-cloud{
+  position: absolute;
+  right: 400px;
+    top: 10px;
+}
+.last-cloud{
+  position: absolute;
+  left: 300px;
+}
+.pot{
+  padding-top: 40px;
+}
+button{
+  background-color: orange;
+  margin: 15px;
+  padding: 3px 10px;
+  border-radius:9px;
+}
+.phone a{
+  text-decoration: none;
+  color:#808080;
+}
+a:hover{
+  color: #8B4513;
+}
+h1{
+  font-size:70px;
+  color: brown;
+  font-family:'Petemoss', cursive;
+  font-size: 60px;
+}
+h5{
+  color:white;
+  text-align: center;
+}
+h3{
+  color:green;
+}
+.phone{
+  margin-left: 10px;
+ padding: 0px;
+}
+footer{
+  background: #F8F8FF;
+}
+.happiness{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
